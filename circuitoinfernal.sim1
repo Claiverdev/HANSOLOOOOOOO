@@ -1,0 +1,75 @@
+<circuit version="1.1.0-SR0" rev="1917" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Switch" CircId="Switch-1" mainComp="false" Show_id="true" Show_Val="false" Pos="-524,-120" rotation="90" hflip="1" vflip="1" label="X3" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
+
+<item itemtype="Switch" CircId="Switch-2" mainComp="false" Show_id="true" Show_Val="false" Pos="-460,-120" rotation="90" hflip="1" vflip="1" label="X2" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
+
+<item itemtype="Switch" CircId="Switch-3" mainComp="false" Show_id="true" Show_Val="false" Pos="-408,-120" rotation="90" hflip="1" vflip="1" label="X1" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
+
+<item itemtype="Switch" CircId="Switch-4" mainComp="false" Show_id="true" Show_Val="false" Pos="-360,-120" rotation="90" hflip="1" vflip="1" label="X0" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-5" mainComp="false" Show_id="false" Show_Val="false" Pos="-628,-148" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-5" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
+
+<item itemtype="Ground" CircId="Ground-10" mainComp="false" Show_id="false" Show_Val="false" Pos="88,128" rotation="0" hflip="1" vflip="1" label="Ground-10" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Resistor" CircId="Resistor-11" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="88,56" rotation="90" hflip="1" vflip="1" label="Resistor-11" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="100 Ω" />
+
+<item itemtype="Or Gate" CircId="Or Gate-50" mainComp="false" Show_id="false" Show_Val="false" Pos="-160,-80" rotation="0" hflip="1" vflip="1" label="Or Gate-50" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Num_Inputs="4 _Inputs" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="And Gate" CircId="And Gate-62" mainComp="false" Show_id="false" Show_Val="false" Pos="-268,-60" rotation="0" hflip="1" vflip="1" label="And Gate-62" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="4" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Seven Segment" CircId="Seven Segment-9" mainComp="false" Show_id="false" Show_Val="false" Pos="80,-28" rotation="0" hflip="1" vflip="1" label="Seven Segment-9" idLabPos="20,-44" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" NumDisplays="1" Vertical_Pins="false" CommonCathode="true" Threshold="2.4 V" MaxCurrent="0.02 A" Resistance="1 Ω" />
+
+<item itemtype="Or Gate" CircId="Or Gate-51" mainComp="false" Show_id="false" Show_Val="false" Pos="-232,76" rotation="0" hflip="1" vflip="1" label="Or Gate-51" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Num_Inputs="4 _Inputs" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Or Gate" CircId="Or Gate-52" mainComp="false" Show_id="false" Show_Val="false" Pos="-236,-12" rotation="0" hflip="1" vflip="1" label="Or Gate-52" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Num_Inputs="4 _Inputs" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Or Gate" CircId="Or Gate-53" mainComp="false" Show_id="false" Show_Val="false" Pos="-252,164" rotation="0" hflip="1" vflip="1" label="Or Gate-53" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Num_Inputs="4 _Inputs" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Or Gate" CircId="Or Gate-56" mainComp="false" Show_id="false" Show_Val="false" Pos="-236,208" rotation="0" hflip="1" vflip="1" label="Or Gate-56" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Num_Inputs="4 _Inputs" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Or Gate" CircId="Or Gate-57" mainComp="false" Show_id="false" Show_Val="false" Pos="-172,240" rotation="0" hflip="1" vflip="1" label="Or Gate-57" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Num_Inputs="4 _Inputs" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Or Gate" CircId="Or Gate-58" mainComp="false" Show_id="false" Show_Val="false" Pos="-40,280" rotation="0" hflip="1" vflip="1" label="Or Gate-58" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Num_Inputs="4 _Inputs" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Node" CircId="Node-6" mainComp="false" Pos="-412,-148" />
+
+<item itemtype="Node" CircId="Node-7" mainComp="false" Pos="-460,-148" />
+
+<item itemtype="Node" CircId="Node-8" mainComp="false" Pos="-524,-148" />
+
+<item itemtype="Connector" uid="Connector-2" startpinid="Switch-3-pinP0" endpinid="Node-6-1" pointList="-408,-136,-408,-148,-412,-148" />
+
+<item itemtype="Connector" uid="Connector-5" startpinid="Switch-2-pinP0" endpinid="Node-7-1" pointList="-460,-136,-460,-148" />
+
+<item itemtype="Connector" uid="Connector-7" startpinid="Node-7-2" endpinid="Node-6-0" pointList="-460,-148,-412,-148" />
+
+<item itemtype="Connector" uid="Connector-8" startpinid="Switch-1-pinP0" endpinid="Node-8-1" pointList="-524,-136,-524,-148" />
+
+<item itemtype="Connector" uid="Connector-9" startpinid="Fixed Voltage-5-outnod" endpinid="Node-8-0" pointList="-612,-148,-524,-148" />
+
+<item itemtype="Connector" uid="Connector-10" startpinid="Node-8-2" endpinid="Node-7-0" pointList="-524,-148,-460,-148" />
+
+<item itemtype="Connector" uid="Connector-12" startpinid="Ground-10-Gnd" endpinid="Resistor-11-rPin" pointList="88,112,88,72" />
+
+<item itemtype="Connector" uid="Connector-22" startpinid="Node-6-2" endpinid="Switch-4-pinP0" pointList="-412,-148,-360,-148,-360,-136" />
+
+<item itemtype="Connector" uid="Connector-137" startpinid="Or Gate-50-out" endpinid="Seven Segment-9-pin_a" pointList="-144,-80,56,-80,56,-52" />
+
+<item itemtype="Connector" uid="Connector-11" startpinid="Resistor-11-lPin" endpinid="Seven Segment-9-pin_commona" pointList="88,40,88,4" />
+
+<item itemtype="Connector" uid="Connector-138" startpinid="Or Gate-51-out" endpinid="Seven Segment-9-pin_b" pointList="-216,76,56,76,56,-44" />
+
+<item itemtype="Connector" uid="Connector-148" startpinid="Or Gate-52-out" endpinid="Seven Segment-9-pin_c" pointList="-220,-12,56,-12,56,-36" />
+
+<item itemtype="Connector" uid="Connector-149" startpinid="Seven Segment-9-pin_d" endpinid="Or Gate-53-out" pointList="56,-28,-96,-28,-96,164,-236,164" />
+
+<item itemtype="Connector" uid="Connector-150" startpinid="Or Gate-56-out" endpinid="Seven Segment-9-pin_e" pointList="-220,208,-112,208,-112,-20,56,-20" />
+
+<item itemtype="Connector" uid="Connector-151" startpinid="Or Gate-57-out" endpinid="Seven Segment-9-pin_f" pointList="-156,240,-80,240,-80,-12,56,-12" />
+
+<item itemtype="Connector" uid="Connector-152" startpinid="Or Gate-58-out" endpinid="Seven Segment-9-pin_g" pointList="-24,280,-24,-4,56,-4" />
+
+<item itemtype="Connector" uid="Connector-180" startpinid="And Gate-62-out" endpinid="Or Gate-50-in0" pointList="-252,-60,-252,-92,-176,-92" />
+
+</circuit>
